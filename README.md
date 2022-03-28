@@ -5,8 +5,7 @@
 ## php
 
 ```
-wget https://raw.githubusercontent.com/tyaikatrabant/initial/main/initial-php.sh
-sudo bash initial-php.sh
+wget https://raw.githubusercontent.com/tyaikatrabant/initial/main/initial-php.sh -O - -q | bash
 ```
 
 ----
