@@ -4,9 +4,9 @@ then
 else
     initialdir=$(dirname $(readlink -f $0))
     initialdir=${initialdir}"/public"
-	if [ ! -d "public" ]; then
+    if [ ! -d "public" ]; then
         mkdir public
-		echo "<?php phpinfo();" > public/index.php
+        echo "<?php phpinfo();" > public/index.php
     fi
 fi
 
